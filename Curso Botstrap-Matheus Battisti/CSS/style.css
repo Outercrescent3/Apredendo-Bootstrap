@@ -132,3 +132,22 @@ font-weight: bold;
     color: #65DAF9;
     margin-right: 15px;
 }
+
+
+/*  Service box   */
+
+.service-box{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.service-box i, .service-box h4{
+    transition: .5s
+}
+.service-box i{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #444;
+}
+.service-box:hover>i, .service-box:hover > h4{
+    color: #65DAF9;
+}
